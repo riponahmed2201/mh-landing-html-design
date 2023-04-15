@@ -1,6 +1,10 @@
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 @media (min-width: 320px) and (max-width: 374.98px) {
+    .first_eclips_img img {
+        left: -198px;
+        top: -62px;
+    }
     .left_part {
         display: flex;
         flex-direction: column;
@@ -193,6 +197,12 @@
     }
 }
 @media (min-width: 1200px) and (max-width: 1398.98px) {
+    .premier_stuffing_wrapper h1 {
+        margin-bottom: 0px !important;
+    }
+    .custom_card {
+        margin-top: 37px;
+    }
     .card-body_custom {
         padding: 16px 30px;
     }
@@ -203,8 +213,14 @@
 }
 
 @media (min-width: 1400px) and (max-width: 1599.98px) {
+    .button_wrapper {
+        margin-top: 0px !important;
+    }
     .left_part_wrapper {
         margin-top: 60px;
+    }
+    .logo_wrapper {
+        padding-top: 5px !important;
     }
 }
 /* 

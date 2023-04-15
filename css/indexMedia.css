@@ -1,6 +1,9 @@
-/* // X-Small devices (portrait phones, less than 576px)
+/*.nav-link:hover/* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 @media (min-width: 320px) and (max-width: 374.98px) {
+    .banner {
+        padding: 20px 0px;
+    }
     .customNav320 {
         margin: 0px;
     }
@@ -178,9 +181,24 @@
     .place_image {
         display: none;
     }
+    .footerFinal {
+        margin-top: 40px;
+        padding: 5px 10px;
+    }
+    .footerTextWrpper span {
+        padding-top: 0px;
+        font-weight: 400;
+        font-size: 8px;
+    }
+    .footerFinalLogo {
+        width: 40%;
+    }
 }
 
 @media (min-width: 375px) and (max-width: 575.98px) {
+    .banner {
+        padding: 20px 0px;
+    }
     .header_container {
         padding: 13px;
     }
@@ -370,15 +388,68 @@
 }
 
 @media (min-width: 768px) and (max-width: 819.98px) {
+    .banner {
+        padding: 30px 0px;
+    }
+    .languageFlagWrapper {
+        justify-content: start !important;
+        flex-direction: row !important;
+        padding-left: 5px;
+    }
     .placeImgWrapper img {
         position: absolute;
         z-index: 1;
         right: 73%;
         bottom: -543.6%;
     }
+    .perticle2 {
+        z-index: -1;
+        position: absolute;
+
+        top: 214%;
+    }
+    .contactUsFormContainer {
+        position: static;
+    }
+    .card-img-top {
+        width: 25%;
+    }
+    .human {
+        width: 65%;
+    }
+    .workers {
+        width: 30% !important;
+
+        right: 169px;
+        top: -405px;
+    }
+
+    .jobs {
+        width: 40% !important;
+        right: -3px;
+        top: -262px;
+    }
+    .find_jobs {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .phoneImgWrapper {
+        margin-top: 30px;
+    }
+    .contactUs {
+        padding-bottom: 50px;
+    }
+
+    .rightPartLogoWrapper img {
+        width: 45%;
+    }
+
+    .downloadApp {
+        margin: 30px 0px;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 1023.98px) {
+@media (min-width: 820px) and (max-width: 1023.98px) {
     .navButton {
         margin-top: 15px;
     }
@@ -453,8 +524,8 @@
         text-align: center !important;
     }
     .nav-link:hover {
-        color: #c6a34f !important;
-        border: none !important;
+        /* color: #c6a34f !important; */
+        /* border: none !important; */
     }
     .our_services {
         margin-top: 0px !important;
@@ -558,7 +629,11 @@
     .contactUsFormContainer {
         position: absolute;
         right: 15.5%;
-        bottom: -458%;
+
+        bottom: -443%;
+    }
+    .perticle2 {
+        top: 67%;
     }
     .place_image {
         display: none;
@@ -594,7 +669,7 @@
     }
     .perticle2 {
         width: 17%;
-
+        top: 79%;
         bottom: -14.6%;
         left: 0%;
     }
@@ -610,7 +685,7 @@
 }
 @media (min-width: 1340px) and (max-width: 1399.98px) {
     .contactUsFormContainer {
-        bottom: -438%;
+        bottom: -418%;
     }
     .placeImgWrapper img {
         position: absolute;
@@ -679,35 +754,17 @@
 }
 @media (min-width: 1536px) and (max-width: 1598.98px) {
     .downloadPerticle2 {
-        top: 276%;
+        top: 252.5%;
     }
     .perticle1 {
         top: 11.6%;
     }
     .contactUsFormContainer {
         right: 26.5%;
-        bottom: -445%;
+        bottom: -421%;
     }
     .downloadPerticle {
-        top: 345%;
-    }
-    .buttonDownloadWrapper {
-        justify-content: start !important;
-    }
-    .placeImgWrapper img {
-        right: 64%;
-        bottom: -475.6%;
-    }
-    .jobsh1 h1 {
-        margin-top: 135px;
-    }
-    .workers {
-        right: -171px;
-        top: -475px;
-    }
-    .jobs {
-        right: -297px;
-        top: -286px;
+        top: 322%;
     }
 }
 @media (min-width: 1600px) and (max-width: 1798.98px) {
@@ -716,7 +773,7 @@
 @media (min-width: 1800px) and (max-width: 2098.98px) {
     .banner {
         height: auto;
-        padding: 100px 0px;
+        padding: 200px 0px;
     }
     .right_part,
     .left_part {
@@ -768,7 +825,7 @@
     }
     .contactUsFormContainer {
         right: 32%;
-        bottom: -286%;
+        bottom: -302%;
         padding: 40px;
         border-radius: 10px;
         width: 700px;
@@ -784,11 +841,11 @@
         position: absolute;
         left: 0px;
         z-index: -1;
-        top: 238%;
+        top: 247%;
         z-index: -1;
     }
     .downloadPerticle2 {
-        top: 190%;
+        top: 204.7%;
         z-index: -1;
     }
     .placeImgWrapper img {

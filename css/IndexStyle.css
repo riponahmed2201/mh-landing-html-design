@@ -14,10 +14,13 @@ font-family: "Poppins", sans-serif; */
     font-size: 17px;
     font-weight: 500;
 }
-.nav-link:hover {
+.navbar_custom ul li a :hover {
     color: #c6a34f !important;
-    /* border-bottom: 2px solid #c6a34f !important; */
 }
+.navbar_custom_hover {
+    color: #c6a34f !important;
+}
+
 .navButton {
     border: 1px solid #c6a34f;
     border-radius: 6px;
@@ -31,6 +34,13 @@ font-family: "Poppins", sans-serif; */
     margin-right: 8px;
 }
 /* Banner Start */
+.banner {
+    padding: 100px 0px;
+}
+.h1Wrapper h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
 .perticle1 {
     z-index: -2;
     width: 20%;
@@ -39,20 +49,19 @@ font-family: "Poppins", sans-serif; */
     right: 0%;
 }
 .perticle2 {
-    z-index: -2;
+    z-index: -1;
     position: absolute;
     bottom: -12.6%;
+    top: 54%;
     left: 0%;
     width: 20%;
 }
-.banner {
-    height: 100vh;
-}
+
 .bannerButtonWrapper2 {
     color: #c6a34f;
 }
 
-.h1Wrapper h2 {
+.bannerButtonWrapper2 h2 {
     font-family: "Poppins", sans-serif;
     font-size: 60px;
     font-weight: 700px;
@@ -72,11 +81,11 @@ font-family: "Poppins", sans-serif; */
     background-color: #c6a34f;
     color: white;
 }
-.left_part {
-    margin-top: 85px;
+.Home_page_left_part {
+    /* margin-top: 40px; */
 }
-.right_part {
-    margin-top: 140px;
+.Home_page_right_part {
+    margin-top: 43px;
 }
 .bannerButtonWrapper1 :hover {
     color: white !important;
@@ -184,13 +193,13 @@ font-family: "Poppins", sans-serif; */
     width: 23%;
     position: absolute;
     left: 0px;
-    top: 337%;
+    top: 317%;
     z-index: -2;
 }
 .downloadPerticle2 {
     width: 23%;
     position: absolute;
-    top: 270%;
+    top: 249%;
     z-index: -2;
     right: 0%;
 }
@@ -281,7 +290,7 @@ font-family: "Poppins", sans-serif; */
 .contactUsFormContainer {
     position: absolute;
     right: 24.5%;
-    bottom: -437%;
+    bottom: -418%;
     padding: 40px;
     border-radius: 10px;
     width: 700px;

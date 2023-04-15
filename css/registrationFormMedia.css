@@ -111,7 +111,7 @@
     .how_youKnow_text {
         margin-top: 10px;
     }
-    .eclipse_wrapper2  {
+    .eclipse_wrapper2 {
         display: none;
     }
     .eclipse_wrapper2 img {
@@ -221,8 +221,8 @@
 
 @media (min-width: 1800px) and (max-width: 2098.98px) {
     .logo_wrapper {
-        padding-top: 152px;
-    }
+        padding-top: 92px;
+}
     .right_part {
         margin: auto;
     }
@@ -235,7 +235,7 @@
         width: 8%;
     }
     .clientButtonWrapper {
-        margin-top: 110px;
+        margin-top: 184px;
     }
     .left_part {
         padding: 20px 10px;

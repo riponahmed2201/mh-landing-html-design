@@ -2,7 +2,7 @@
 font-family: 'Montserrat', sans-serif;
 F6F1E5
 */
-.left_part {
+.Login_Page_left_part {
     overflow: hidden;
     min-height: 100vh;
     background-color: #f6f1e5;
@@ -44,7 +44,7 @@ F6F1E5
     position: relative;
 }
 
-.right_part {
+.Login_page_right_part {
     display: flex;
     justify-content: center;
     align-items: center;
