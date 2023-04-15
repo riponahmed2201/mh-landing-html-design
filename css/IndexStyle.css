@@ -222,7 +222,7 @@ font-family: "Poppins", sans-serif; */
 .custom_container_Testimonial {
     padding: 20px 0px 80px 0px;
     height: auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/TestimonialsCOver.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/indexImages/TestimonialsCOver.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
