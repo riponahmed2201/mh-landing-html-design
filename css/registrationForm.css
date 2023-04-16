@@ -92,6 +92,46 @@ F6F1E5
     height: 70px;
     /* border: 1px solid red; */
 }
+/* .ClientButtonNavItem:active {
+    background-color: #c6a34f !important;
+} */
+.client_tab_button:hover {
+    border: none !important;
+    color: black;
+}
+.client_tab_button {
+    width: 200px;
+    border-radius: 6.17px;
+    background-color: #FFFFFF !important;
+    width: 180px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+.client_tab_button.active {
+    background-color: #c6a34f !important;
+    color: white !important;
+}
+.employee_tab_button {
+    border-radius: 6.17px;
+    border: none !important;
+    background-color: #FFFFFF !important;
+    width: 200px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+.employee_tab_button.active {
+    background-color: #c6a34f !important;
+    color: white !important;
+}
+.employee_tab_button:hover {
+    border: none !important;
+    color: black;
+}
+
 /* .nav-link {
     background-color: #fff !important;
     color: black !important;

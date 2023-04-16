@@ -45,6 +45,18 @@
     .clientButtonWrapper {
         margin-top: 11px;
     }
+    .employee_tab_button {
+        width: 130px;
+    }
+    .client_tab_button {
+        width: 130px;
+    }
+    .employee_register_button {
+        padding-top: 14px;
+        margin-top: 10px;
+        margin-bottom: 19px;
+        width: auto;
+    }
 }
 @media (min-width: 375px) and (max-width: 575.98px) {
     .left_part {
@@ -75,6 +87,12 @@
     }
     .eclipse_wrapper2 {
         display: none;
+    }
+    .employee_tab_button {
+        width: 130px;
+    }
+    .client_tab_button {
+        width: 130px;
     }
 }
 @media (min-width: 768px) and (max-width: 819.98px) {
@@ -116,6 +134,12 @@
     }
     .eclipse_wrapper2 img {
         bottom: -55%;
+    }
+    .employee_tab_button {
+        width: 130px;
+    }
+    .client_tab_button {
+        width: 130px;
     }
 }
 @media (min-width: 820px) and (max-width: 1023.98px) {
@@ -222,7 +246,7 @@
 @media (min-width: 1800px) and (max-width: 2098.98px) {
     .logo_wrapper {
         padding-top: 92px;
-}
+    }
     .right_part {
         margin: auto;
     }

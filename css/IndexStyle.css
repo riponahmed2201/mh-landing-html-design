@@ -77,6 +77,16 @@ font-family: "Poppins", sans-serif; */
     background-color: #c6a34f;
     color: white;
 }
+.bannerButtonWrapper1:hover {
+    color: white ;
+}
+.bannerButtonWrapper2{
+    color: #C6A34F;
+}
+.bannerButtonWrapper2:hover{
+    color: #C6A34F;
+}
+
 .Home_page_left_part {
     /* margin-top: 40px; */
 }
