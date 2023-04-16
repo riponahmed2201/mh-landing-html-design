@@ -47,7 +47,7 @@ font-family: "Poppins", sans-serif; */
 .perticle2 {
     z-index: -1;
     position: absolute;
-    bottom: -12.6%;
+    /* bottom: -12.6%; */
     top: 54%;
     left: 0%;
     width: 20%;
@@ -78,13 +78,13 @@ font-family: "Poppins", sans-serif; */
     color: white;
 }
 .bannerButtonWrapper1:hover {
-    color: white ;
+    color: white;
 }
-.bannerButtonWrapper2{
-    color: #C6A34F;
+.bannerButtonWrapper2 {
+    color: #c6a34f;
 }
-.bannerButtonWrapper2:hover{
-    color: #C6A34F;
+.bannerButtonWrapper2:hover {
+    color: #c6a34f;
 }
 
 .Home_page_left_part {

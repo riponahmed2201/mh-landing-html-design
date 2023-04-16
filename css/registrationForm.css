@@ -102,10 +102,10 @@ F6F1E5
 .client_tab_button {
     width: 200px;
     border-radius: 6.17px;
-    background-color: #FFFFFF !important;
+    background-color: #ffffff !important;
     width: 180px;
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 17px;
 }
@@ -116,10 +116,10 @@ F6F1E5
 .employee_tab_button {
     border-radius: 6.17px;
     border: none !important;
-    background-color: #FFFFFF !important;
+    background-color: #ffffff !important;
     width: 200px;
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 17px;
 }
