@@ -68,13 +68,14 @@ font-family: "Poppins", sans-serif; */
 /* Global Css */
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
 }
 /* Global Css */
 
 /* Header Start */
-.header {
-    background-color: #fafafa;
+
+.Dashboardheader {
+    background-color: #FFFFFF;
 }
 .header_container {
     padding: 0px;
@@ -132,7 +133,15 @@ body {
 /* Header End */
 /* Dashboard 1 */
 .dashboard1 {
+    background-color: #f5f5f5;
     padding: 40px 0px;
+}
+.dashboard2 {
+    background-color: #f5f5f5;
+}
+.pagination{
+    background-color: #f5f5f5;
+
 }
 .welcome_card {
     padding: 10px 3px 10px 10px;
@@ -381,7 +390,7 @@ body {
 
 /* Pagination Start */
 .pagination {
-    margin: 13px 0px;
+    padding: 13px 0px;
 }
 .paginationLiA li a {
     font-size: 17px;
@@ -544,7 +553,7 @@ body {
     background-color: #c6a34f;
     border-radius: 10px;
 }
-.footerTextWrpper span {
+.DashboardfooterTextWrpper span {
     padding-top: 13px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;

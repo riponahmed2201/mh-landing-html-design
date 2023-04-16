@@ -1,13 +1,13 @@
 /*.nav-link:hover/* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 @media (min-width: 320px) and (max-width: 374.98px) {
-    .banner {
+    .Indexbanner {
         padding: 20px 0px;
     }
-    .customNav320 {
+    .IndexcustomNav320 {
         margin: 0px;
     }
-    .header_container {
+    .Index_header_container {
         padding: 8px;
     }
     .nav_logo {
@@ -196,10 +196,10 @@
 }
 
 @media (min-width: 375px) and (max-width: 575.98px) {
-    .banner {
+    .Indexbanner {
         padding: 20px 0px;
     }
-    .header_container {
+    .Index_header_container {
         padding: 13px;
     }
     .nav_logo {
@@ -233,7 +233,7 @@
     .perticle2 {
         display: none;
     }
-    .banner {
+    .Indexbanner {
         height: auto;
     }
     .bannerButtonWrapper {
@@ -394,7 +394,7 @@
     .slider {
         display: none;
     }
-    .banner {
+    .Indexbanner {
         padding: 30px 0px;
     }
     .languageFlagWrapper {
@@ -466,11 +466,15 @@
     .left_part {
         margin-top: 40px;
     }
-    .banner {
+    .Indexbanner {
         padding-bottom: 70px;
         height: auto;
     }
-    perticle2 {
+    .perticle1 {
+        display: none;
+    }
+    .perticle2 {
+        display: none;
         bottom: -66.6%;
     }
 
@@ -589,11 +593,12 @@
     }
     .perticle1 {
         width: 26%;
-        z-index: -1;
+        z-index: 1;
     }
     .perticle2 {
-        bottom: -16.6%;
-        z-index: -1;
+        /* bottom: -16.6%; */
+        top: 67%;
+        z-index: 1;
     }
     .navbar_custom ul li a {
         color: #111111 !important;
@@ -612,7 +617,7 @@
         line-height: 29px;
         font-size: 19px;
     }
-    .banner {
+    .Indexbanner {
         padding: 70px;
     }
     .find_jobs {
@@ -627,7 +632,7 @@
         top: -218px;
     }
     .downloadPerticle2 {
-        top: 267%;
+        top: 270%;
     }
     .downloadPerticle {
         top: 359%;
@@ -641,9 +646,7 @@
 
         bottom: -443%;
     }
-    .perticle2 {
-        top: 67%;
-    }
+
     .place_image {
         display: none;
     }
@@ -651,10 +654,13 @@
         text-align: center;
         padding: 10px 35px;
     }
+    .home_navbar_custom ul li a {
+        margin: 0px 7px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1339.98px) {
-    .banner {
+    .Indexbanner {
         height: 100vh;
     }
     .left_part {
@@ -672,7 +678,7 @@
         width: 19%;
     }
     .perticle1 {
-        z-index: -2;
+        z-index: 1;
         width: 22%;
         top: 10.6%;
     }
@@ -711,7 +717,7 @@
     .right_part {
         margin-top: 148px;
     }
-    .banner {
+    .Indexbanner {
         height: 600px;
     }
     .perticle1 {
@@ -771,6 +777,10 @@
     .perticle1 {
         top: 11.6%;
     }
+    .perticle2 {
+        position: absolute;
+        top: 48%;
+    }
     .contactUsFormContainer {
         right: 26.5%;
         bottom: -421%;
@@ -783,7 +793,7 @@
 }
 
 @media (min-width: 1800px) and (max-width: 2098.98px) {
-    .banner {
+    .Indexbanner {
         height: auto;
         padding: 200px 0px;
     }
@@ -796,8 +806,8 @@
         top: 7.6%;
     }
     .perticle2 {
-        bottom: 30.3%;
-        z-index: -1;
+        top: 49%;
+        z-index: 2;
     }
     .workers {
         top: -502px;

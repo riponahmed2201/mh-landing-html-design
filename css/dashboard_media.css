@@ -23,7 +23,8 @@
         margin-bottom: 25px;
         font-family: "Montserrat", sans-serif;
         font-weight: 600;
-        font-size: 14px;}
+        font-size: 14px;
+    }
     .footerTextWrpper span {
         font-size: 10px;
     }
@@ -199,6 +200,9 @@
     }
     .DashboarddarkModeToggle {
         margin-right: 5px;
+    }
+    .DashboardFilterCategoryDropdown {
+        height: 64px;
     }
     .margin768 {
         display: flex;
@@ -393,12 +397,15 @@
     .DashboardFootersocialMediaIcons {
         display: flex;
     }
-    .footerTextWrpper span {
+    .DashboardfooterTextWrpper span {
         font-size: 14px;
     }
 }
 
 @media (min-width: 1024px) and (max-width: 1198.98px) {
+    .Dashboard_nav_logo {
+        padding-left: 10px;
+    }
     .welcome_card {
         padding: 10px 10px 10px 10px;
     }
@@ -427,233 +434,30 @@
     .custom_card_padding {
         padding: 1rem 7px;
     }
+    .dropdown-toggle {
+        padding-right: 10px;
+    }
+    .minimumTotalHourInput {
+        font-size: 12px;
+    }
+    .maximuTotalHourInput {
+        font-size: 13px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1339.98px) {
-    .banner {
-        height: 100vh;
-    }
-    .left_part {
-        margin-top: 82px;
-    }
-    .right_part {
-        margin-top: 200px;
-    }
-    .downloadPerticle2 {
-        top: 293%;
-        width: 23%;
-    }
-    .downloadPerticle {
-        top: 380%;
-        width: 19%;
-    }
-    .perticle1 {
-        z-index: -2;
-        width: 22%;
-        top: 10.6%;
-    }
-    .perticle2 {
-        width: 17%;
-
-        bottom: -14.6%;
-        left: 0%;
-    }
-    .placeImgWrapper img {
-        position: absolute;
-        right: 62%;
-        bottom: -534.4%;
-    }
-    .contactUsFormContainer {
-        right: 21%;
-        bottom: -498%;
-    }
 }
 @media (min-width: 1340px) and (max-width: 1399.98px) {
-    .contactUsFormContainer {
-        bottom: -438%;
-    }
-    .placeImgWrapper img {
-        position: absolute;
-        bottom: -470%;
-
-        right: 61.5%;
-        bottom: -408.4%;
-    }
 }
+
 @media (min-width: 1400px) and (max-width: 1535.98px) {
-    .left_part {
-        margin-top: 104px;
-    }
-    .right_part {
-        margin-top: 148px;
-    }
-    .banner {
-        height: 600px;
-    }
-    .perticle1 {
-        width: 24%;
-        top: 9.6%;
-    }
-    .perticle2 {
-        width: 18%;
-        bottom: 9.4%;
-    }
-    .downloadPerticle2 {
-        top: 229.8%;
-    }
-    .downloadPerticle {
-        top: 303%;
-        width: 17%;
-    }
-    .workers {
-        right: -196px;
-        top: -486px;
-    }
-    .jobs {
-        right: -299px;
-        top: -299px;
-    }
-    .jobsh1 h1 {
-        margin-top: 101px;
-    }
+}
 
-    .contactUsFormContainer {
-        right: 26%;
-        bottom: -367%;
-    }
-    .placeImgWrapper img {
-        position: absolute;
-        right: 64.5%;
-        bottom: -527.2%;
-    }
-    .placeImgWrapper img {
-        right: 64.5%;
-        bottom: -393.8%;
-    }
-    .appAvailableImage {
-        margin-top: 113px;
-    }
-    .buttonDownloadWrapper {
-        justify-content: start !important;
-    }
-}
 @media (min-width: 1536px) and (max-width: 1598.98px) {
-    .downloadPerticle2 {
-        top: 276%;
-    }
-    .perticle1 {
-        top: 11.6%;
-    }
-    .contactUsFormContainer {
-        right: 26.5%;
-        bottom: -445%;
-    }
-    .downloadPerticle {
-        top: 345%;
-    }
-    .buttonDownloadWrapper {
-        justify-content: start !important;
-    }
-    .placeImgWrapper img {
-        right: 64%;
-        bottom: -475.6%;
-    }
-    .jobsh1 h1 {
-        margin-top: 135px;
-    }
-    .workers {
-        right: -171px;
-        top: -475px;
-    }
-    .jobs {
-        right: -297px;
-        top: -286px;
-    }
 }
+
 @media (min-width: 1600px) and (max-width: 1798.98px) {
 }
 
 @media (min-width: 1800px) and (max-width: 2098.98px) {
-    .banner {
-        height: auto;
-        padding: 100px 0px;
-    }
-    .right_part,
-    .left_part {
-        margin: 0px;
-    }
-    .perticle1 {
-        width: 20%;
-        top: 7.6%;
-    }
-    .perticle2 {
-        bottom: 30.3%;
-        z-index: -1;
-    }
-    .workers {
-        top: -502px;
-    }
-    .jobs {
-        right: -304px;
-        top: -306px;
-    }
-    .jobsh1 h1 {
-        margin-top: 66px;
-        line-height: 75px;
-        padding: 0px 27px;
-    }
-    .jobsp {
-        padding: 0px 0px 0px 92px;
-        line-height: 40px;
-    }
-    .bannerButtonWrapper1,
-    .bannerButtonWrapper2 {
-        padding: 10px 15px 10px 15px;
-    }
-    .buttonDownloadWrapper {
-        justify-content: flex-start !important;
-    }
-    .pDownloadWrapper p {
-        padding: 0px 200px 0px 0px;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 39px;
-    }
-    .downloadApp {
-        margin-top: 92px;
-        margin-bottom: 92px;
-    }
-    .custom_container_Testimonial {
-        height: auto;
-    }
-    .contactUsFormContainer {
-        right: 32%;
-        bottom: -286%;
-        padding: 40px;
-        border-radius: 10px;
-        width: 700px;
-        background-color: #fff;
-    }
-    .contactUs {
-        padding: 66px 0px 238px 0px;
-    }
-    .downloadPerticle {
-        position: absolute;
-    }
-    .downloadPerticle {
-        position: absolute;
-        left: 0px;
-        z-index: -1;
-        top: 238%;
-        z-index: -1;
-    }
-    .downloadPerticle2 {
-        top: 190%;
-        z-index: -1;
-    }
-    .placeImgWrapper img {
-        position: absolute;
-        right: 61%;
-        bottom: -309.2%;
-    }
 }
