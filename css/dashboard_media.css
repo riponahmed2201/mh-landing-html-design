@@ -1,0 +1,659 @@
+/* /* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 320px) and (max-width: 374.98px) {
+    .dashboard1 {
+        padding: 15px 0px;
+    }
+    .DashboardNavban {
+        justify-content: center !important;
+    }
+    .DashboardFootermiddlePart h6 {
+        text-align: center;
+        padding: 10px 14px;
+    }
+    .DashboardFootersocialMediaIcons {
+        display: flex;
+        flex-direction: row;
+    }
+    .DashboardfooterFinal {
+        margin-top: 40px;
+        padding: 15px 15px;
+    }
+    .DashboardFootermiddlePart h5 {
+        margin-bottom: 25px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 14px;}
+    .footerTextWrpper span {
+        font-size: 10px;
+    }
+    .Dashboardfooter {
+        z-index: -1;
+        padding: 30px 6px 30px 6px;
+        background-color: #111111;
+    }
+    .Dashboard_navbar_custom {
+        flex-direction: row;
+    }
+    .active_and_pending_column {
+        margin: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .activeEmployeeCard {
+        text-align: center;
+        margin: 0px 10px;
+        padding: 10px 10px;
+        margin: 0px !important;
+    }
+    .pendingInvoicesClass {
+        text-align: center;
+        padding: 10px 10px;
+        margin: 0px 10px;
+    }
+    .custom_dashboard_right_side_cards {
+        padding: 10px;
+        margin: 10px 8px;
+    }
+    .bookmarkImageWrapper {
+        align-items: start !important;
+    }
+    .bookmarkImageWrapper img {
+        padding: 0px 0px 12px 3px;
+    }
+    .bookNowButton {
+        width: 100%;
+    }
+    .experienceLogo {
+        margin-left: 3px;
+    }
+    .custom_card_padding {
+        padding: 10px 15px;
+    }
+    .bookNowCardMobileMarginBottom {
+        margin-bottom: 10px;
+    }
+    .firstFilterRow {
+    }
+    .filtersTitle p {
+        margin-left: 6px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 575.98px) {
+    .dashboard1 {
+        padding: 15px 0px;
+    }
+    .Dashboard_navbar_custom {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .DashboardNavban {
+        justify-content: space-around !important;
+    }
+    .DashboardlanguageFlagWrapper {
+        justify-content: start !important;
+    }
+    .active_and_pending_column {
+        margin: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .activeEmployeeCard {
+        text-align: center;
+        margin: 0px 10px;
+        padding: 10px 10px;
+        margin: 0px !important;
+    }
+    .pendingInvoicesClass {
+        text-align: center;
+        padding: 10px 10px;
+        margin: 0px 10px;
+    }
+    .MHEmployeeText {
+        text-align: start !important;
+        padding-left: 2px;
+    }
+    .custom_dashboard_right_side_cards {
+        padding: 10px;
+        margin: 10px 8px;
+    }
+    .bookmarkImageWrapper {
+        align-items: start !important;
+    }
+    .bookmarkImageWrapper img {
+        padding: 0px 0px 12px 3px;
+    }
+    .bookNowButton {
+        width: 100%;
+    }
+    .experienceLogo {
+        margin-left: 3px;
+    }
+    .custom_card_padding {
+        padding: 10px 15px;
+    }
+    .bookNowCardMobileMarginBottom {
+        margin-bottom: 10px;
+    }
+    .firstFilterRow {
+    }
+    .filtersTitle p {
+        margin-left: 6px;
+    }
+    .welcome_card {
+        padding: 54px 10px 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .custom_card_image {
+        flex-direction: row;
+    }
+    .card-img-top {
+        width: 43%;
+        height: 130px;
+    }
+    .customforfilerrow2 {
+        padding: 20px;
+    }
+    .clock {
+        margin: 0px;
+    }
+    .rate {
+        margin: 0px;
+    }
+    .Dashboardfooter {
+        padding: 20px 5px;
+    }
+    .DashboardFootermiddlePart h6 {
+        text-align: center;
+        padding: 10px 11px;
+    }
+    .footerTextWrpper span {
+        padding-top: 3px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .DashboardFooterLogo {
+        width: 40%;
+    }
+    .DashboardfooterFinal {
+        padding: 15px 5px;
+    }
+    .DashboardFootermiddlePart h5 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 819.98px) {
+    .dashboard1 {
+        padding: 10px 0px;
+    }
+    .welcome_card {
+        padding: 10px 26px 10px 28px;
+    }
+    .DashboarddarkModeToggle {
+        margin-right: 5px;
+    }
+    .margin768 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .Dashboard_navbar_custom_hover {
+        margin: 0px 1px;
+    }
+    .placeImgWrapper img {
+        position: absolute;
+        z-index: 1;
+        right: 73%;
+        bottom: -543.6%;
+    }
+    .customPadding_for_768 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .bookNowButton {
+        padding: 10px 8px;
+    }
+    .customCardTitle {
+        margin-left: 5px;
+    }
+    .rating_logo img {
+        margin-left: 0px;
+    }
+    .clock {
+        margin-left: 0px;
+    }
+    .rate {
+        margin-left: 0px;
+    }
+    .totalHoursSpan {
+        font-size: 12px !important;
+    }
+    .bookmarkImageWrapper {
+        align-items: start !important;
+        margin-bottom: 10px;
+    }
+    .bookNowButton {
+        width: 100%;
+    }
+    .bookmarkImageWrapper img {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .customCardTitle {
+        font-weight: 700;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .bookNowCardMobileMarginBottom {
+        padding: 4px;
+    }
+    .custom_card_padding {
+        padding: 1rem 8px;
+    }
+    .filtersTitle p {
+        margin-left: 6px;
+    }
+    .Dashboardfooter {
+        z-index: -1;
+        padding: 40px 0px 40px 0px;
+        background-color: #111111;
+    }
+    .DashboardFooterleftPartLinks ul li a {
+        font-size: 13px;
+    }
+    .DashboardFootermiddlePart h6 {
+        padding: 10px 0px;
+    }
+    .DashboardFooterrightPartLinks ul li a {
+        font-size: 13px;
+    }
+    .rightPartLogoWrapper img {
+        width: 20%;
+    }
+    .DashboardFootermiddlePart h5 {
+        font-size: 17px;
+    }
+    .DashboardFootermiddlePart h6 {
+        font-size: 17px;
+    }
+    .DashboardFootersocialMediaIcons {
+        display: flex;
+    }
+    .footerTextWrpper span {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1023.98px) {
+    .dashboard1 {
+        padding: 10px 0px;
+    }
+    .DashboarddarkModeToggle {
+        margin-right: 5px;
+    }
+    .welcome_card {
+        padding: 10px 26px 10px 28px;
+    }
+    .margin768 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .Dashboard_navbar_custom_hover {
+        margin: 0px 1px;
+    }
+    .placeImgWrapper img {
+        position: absolute;
+        z-index: 1;
+        right: 73%;
+        bottom: -543.6%;
+    }
+    .customPadding_for_768 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .bookNowButton {
+        padding: 10px 8px;
+    }
+    .customCardTitle {
+        margin-left: 5px;
+    }
+    .rating_logo img {
+        margin-left: 0px;
+    }
+    .clock {
+        margin-left: 0px;
+    }
+    .rate {
+        margin-left: 0px;
+    }
+    .totalHoursSpan {
+        font-size: 12px !important;
+    }
+    .bookmarkImageWrapper {
+        align-items: start !important;
+        margin-bottom: 10px;
+    }
+    .bookNowButton {
+        width: 100%;
+    }
+    .bookmarkImageWrapper img {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .customCardTitle {
+        font-weight: 700;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .bookNowCardMobileMarginBottom {
+        padding: 4px;
+    }
+    .custom_card_padding {
+        padding: 1rem 8px;
+    }
+    .filtersTitle p {
+        margin-left: 6px;
+    }
+    .Dashboardfooter {
+        z-index: -1;
+        padding: 40px 0px 40px 0px;
+        background-color: #111111;
+    }
+    .DashboardFooterleftPartLinks ul li a {
+        font-size: 13px;
+    }
+    .DashboardFootermiddlePart h6 {
+        padding: 10px 0px;
+    }
+    .DashboardFooterrightPartLinks ul li a {
+        font-size: 13px;
+    }
+    .rightPartLogoWrapper img {
+        width: 20%;
+    }
+    .DashboardFootermiddlePart h5 {
+        font-size: 17px;
+    }
+    .DashboardFootermiddlePart h6 {
+        font-size: 17px;
+    }
+    .DashboardFootersocialMediaIcons {
+        display: flex;
+    }
+    .footerTextWrpper span {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1198.98px) {
+    .welcome_card {
+        padding: 10px 10px 10px 10px;
+    }
+    .custom_dashboard_right_side_cards p {
+        font-size: 16px;
+    }
+    .rating_logo img {
+        margin-left: 0px;
+    }
+    .clock {
+        margin-left: 0px;
+    }
+    .rate {
+        margin-left: 0px;
+    }
+    .bookNowButton {
+        padding: 10px 10px;
+    }
+    .customCardTitle {
+        font-size: 14px;
+        margin: 0px;
+    }
+    .bookNowButton {
+        width: 94%;
+    }
+    .custom_card_padding {
+        padding: 1rem 7px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1339.98px) {
+    .banner {
+        height: 100vh;
+    }
+    .left_part {
+        margin-top: 82px;
+    }
+    .right_part {
+        margin-top: 200px;
+    }
+    .downloadPerticle2 {
+        top: 293%;
+        width: 23%;
+    }
+    .downloadPerticle {
+        top: 380%;
+        width: 19%;
+    }
+    .perticle1 {
+        z-index: -2;
+        width: 22%;
+        top: 10.6%;
+    }
+    .perticle2 {
+        width: 17%;
+
+        bottom: -14.6%;
+        left: 0%;
+    }
+    .placeImgWrapper img {
+        position: absolute;
+        right: 62%;
+        bottom: -534.4%;
+    }
+    .contactUsFormContainer {
+        right: 21%;
+        bottom: -498%;
+    }
+}
+@media (min-width: 1340px) and (max-width: 1399.98px) {
+    .contactUsFormContainer {
+        bottom: -438%;
+    }
+    .placeImgWrapper img {
+        position: absolute;
+        bottom: -470%;
+
+        right: 61.5%;
+        bottom: -408.4%;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1535.98px) {
+    .left_part {
+        margin-top: 104px;
+    }
+    .right_part {
+        margin-top: 148px;
+    }
+    .banner {
+        height: 600px;
+    }
+    .perticle1 {
+        width: 24%;
+        top: 9.6%;
+    }
+    .perticle2 {
+        width: 18%;
+        bottom: 9.4%;
+    }
+    .downloadPerticle2 {
+        top: 229.8%;
+    }
+    .downloadPerticle {
+        top: 303%;
+        width: 17%;
+    }
+    .workers {
+        right: -196px;
+        top: -486px;
+    }
+    .jobs {
+        right: -299px;
+        top: -299px;
+    }
+    .jobsh1 h1 {
+        margin-top: 101px;
+    }
+
+    .contactUsFormContainer {
+        right: 26%;
+        bottom: -367%;
+    }
+    .placeImgWrapper img {
+        position: absolute;
+        right: 64.5%;
+        bottom: -527.2%;
+    }
+    .placeImgWrapper img {
+        right: 64.5%;
+        bottom: -393.8%;
+    }
+    .appAvailableImage {
+        margin-top: 113px;
+    }
+    .buttonDownloadWrapper {
+        justify-content: start !important;
+    }
+}
+@media (min-width: 1536px) and (max-width: 1598.98px) {
+    .downloadPerticle2 {
+        top: 276%;
+    }
+    .perticle1 {
+        top: 11.6%;
+    }
+    .contactUsFormContainer {
+        right: 26.5%;
+        bottom: -445%;
+    }
+    .downloadPerticle {
+        top: 345%;
+    }
+    .buttonDownloadWrapper {
+        justify-content: start !important;
+    }
+    .placeImgWrapper img {
+        right: 64%;
+        bottom: -475.6%;
+    }
+    .jobsh1 h1 {
+        margin-top: 135px;
+    }
+    .workers {
+        right: -171px;
+        top: -475px;
+    }
+    .jobs {
+        right: -297px;
+        top: -286px;
+    }
+}
+@media (min-width: 1600px) and (max-width: 1798.98px) {
+}
+
+@media (min-width: 1800px) and (max-width: 2098.98px) {
+    .banner {
+        height: auto;
+        padding: 100px 0px;
+    }
+    .right_part,
+    .left_part {
+        margin: 0px;
+    }
+    .perticle1 {
+        width: 20%;
+        top: 7.6%;
+    }
+    .perticle2 {
+        bottom: 30.3%;
+        z-index: -1;
+    }
+    .workers {
+        top: -502px;
+    }
+    .jobs {
+        right: -304px;
+        top: -306px;
+    }
+    .jobsh1 h1 {
+        margin-top: 66px;
+        line-height: 75px;
+        padding: 0px 27px;
+    }
+    .jobsp {
+        padding: 0px 0px 0px 92px;
+        line-height: 40px;
+    }
+    .bannerButtonWrapper1,
+    .bannerButtonWrapper2 {
+        padding: 10px 15px 10px 15px;
+    }
+    .buttonDownloadWrapper {
+        justify-content: flex-start !important;
+    }
+    .pDownloadWrapper p {
+        padding: 0px 200px 0px 0px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 39px;
+    }
+    .downloadApp {
+        margin-top: 92px;
+        margin-bottom: 92px;
+    }
+    .custom_container_Testimonial {
+        height: auto;
+    }
+    .contactUsFormContainer {
+        right: 32%;
+        bottom: -286%;
+        padding: 40px;
+        border-radius: 10px;
+        width: 700px;
+        background-color: #fff;
+    }
+    .contactUs {
+        padding: 66px 0px 238px 0px;
+    }
+    .downloadPerticle {
+        position: absolute;
+    }
+    .downloadPerticle {
+        position: absolute;
+        left: 0px;
+        z-index: -1;
+        top: 238%;
+        z-index: -1;
+    }
+    .downloadPerticle2 {
+        top: 190%;
+        z-index: -1;
+    }
+    .placeImgWrapper img {
+        position: absolute;
+        right: 61%;
+        bottom: -309.2%;
+    }
+}
