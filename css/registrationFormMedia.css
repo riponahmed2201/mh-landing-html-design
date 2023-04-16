@@ -194,10 +194,14 @@
         padding-bottom: 20px;
     }
     .eclipse_wrapper2 img {
-        bottom: -7%;
+        bottom: -6%;
     }
     .register_button {
         margin-top: 15px;
+    }
+    .empUploadImg{
+        width: 58%;
+        margin-left: 35px;
     }
 }
 @media (min-width: 1400px) and (max-width: 1598.98px) {
@@ -206,7 +210,7 @@
         left: 42%;
     }
     .eclipse_wrapper2 img {
-        bottom: 0;
+        bottom: -0%;
     }
     .button_wrapper {
         margin-top: 82px;
