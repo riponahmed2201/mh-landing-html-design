@@ -1,6 +1,10 @@
 /* font-family: 'Montserrat', sans-serif; */
 /* font-family: "Montserrat", sans-serif;
 font-family: "Poppins", sans-serif; */
+.contactUs {
+    position: relative;
+}
+
 .header {
     background-color: #fafafa;
 }
@@ -31,7 +35,7 @@ font-family: "Poppins", sans-serif; */
 }
 /* Banner Start */
 .Indexbanner {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 100px 0px;
 }
 .h1Wrapper h2 {
@@ -268,6 +272,7 @@ font-family: "Poppins", sans-serif; */
 }
 /* Contact Us Start */
 .contactUs {
+    position: relative;
     padding: 48px 0px 234px 0px;
     background-color: #f6f1e5;
     height: auto;
