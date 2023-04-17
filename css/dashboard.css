@@ -75,7 +75,7 @@ body {
 /* Header Start */
 
 .Dashboardheader {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 .header_container {
     padding: 0px;
@@ -138,13 +138,13 @@ body {
 }
 .dashboard2 {
     background-color: #f5f5f5;
+    padding: 0px 0px;
 }
-.pagination{
+.pagination {
     background-color: #f5f5f5;
-
 }
 .welcome_card {
-    padding: 10px 3px 10px 10px;
+    padding: 10px 9px 10px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -153,13 +153,21 @@ body {
     padding-top: 10px;
 }
 .showEmployeerow {
-    padding: 15px 0px;
+    /* background-color: #f5f5f5; */
+
+    padding: 0px 8px 15px 8px;
 }
-/* .active_and_pending_column{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-} */
+.DashboardColXL9 {
+    background-color: #ffffff;
+    padding: 20px 10px;
+    border-radius: 14px;
+}
+.Dashboard2FilterpartContainer {
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 14px;
+}
+
 .custom_dashboard_right_side_cards {
     border-radius: 10px;
     background-color: #fff;
@@ -254,20 +262,10 @@ body {
 .custom_card_padding {
     padding: 1rem 5px;
 }
-.card-img-top {
+.Dashboard2-card-img-top {
     padding: 8px;
 }
-.totalHoursSpan {
-    padding-left: 4px;
-    font-size: 13px !important;
-    margin-top: 3.5px;
-}
-.clock {
-    margin-left: 3px;
-}
-.rate {
-    margin-left: 3px;
-}
+
 .bookNowButton {
     padding: 10px 30px;
     border: none;
@@ -280,15 +278,95 @@ body {
     border-top-left-radius: 14px;
     border-bottom-right-radius: 014px;
 }
-.bookmark_row {
-    margin-top: 13px;
+.Dashboard2CardTItle {
+    color: #111111 !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.Dashboard2Card_rating {
+    color: #111111 !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.Dashboard2Card_count {
+    color: #a6a6a6 !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.Dashboard2ExpSpan {
+    color: #a6a6a6 !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.Dashboardcard2Years {
+    color: #111111 !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.dashboard2chefwrapper span {
+    color: #111111 !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.dashboard2totalhourspan {
+    color: #a6a6a6 !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.dashboard2totalhoursspent {
+    color: #111111 !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.Dashboard2Rate {
+    color: #a6a6a6 !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.Dashboard2Perhour {
+    color: #111111 !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.Dashboard2BookNowButton {
+    margin-top: 14px;
+}
+.Dashboard2BookNowButton button {
+    margin-left: 5px;
+    padding: 0px 45px;
+    height: 37px;
+    border: none;
+    background-color: #c6a34f;
+    color: white;
+    -webkit-border-top-left-radius: 14px;
+    -webkit-border-bottom-right-radius: 14px;
+    -moz-border-radius-topleft: 14px;
+    -moz-border-radius-bottomright: 014px;
+    border-top-left-radius: 14px;
+    border-bottom-right-radius: 14px;
 }
 
-.bookmarkImageWrapper img {
-    padding-left: 16px;
-    padding-top: 12px;
+.DashboardEmployeeCard {
+    height: fit-content;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    border-radius: 14px !important;
 }
-/* Dashboard 3 Start */
+.Dashboard2CardssecondRow {
+    margin-top: 20px;
+}
+
+/* Dashboard 2 end */
 
 /* Filter Start */
 
@@ -328,6 +406,9 @@ body {
     font-size: 13px;
     font-weight: 600;
     color: #7b7b7b;
+}
+.resetData {
+    text-align: end;
 }
 .resetData button {
     margin-top: 7.5px;

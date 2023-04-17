@@ -90,6 +90,23 @@
         flex-direction: row;
         justify-content: center;
     }
+    .Dashboard1PaddingFixfor375 {
+        padding: 10px;
+        /* margin-right: 10px; */
+        border-radius: none !important;
+    }
+    .resetData {
+        text-align: start;
+    }
+    .Dashboard2FilterpartContainer {
+        margin: 10px 0px;
+    }
+    .DashboardfooterTextWrpper span {
+        padding: 5px;
+        font-size: 14px;
+    }
+    .DashboardFooterleftPartLinks li a {
+    }
 
     .DashboardNavban {
         justify-content: space-around !important;
@@ -98,7 +115,7 @@
         justify-content: start !important;
     }
     .active_and_pending_column {
-        margin: 10px 0px;
+        margin: 10px 6px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -140,7 +157,18 @@
     .bookNowCardMobileMarginBottom {
         margin-bottom: 10px;
     }
-    .firstFilterRow {
+    .ratingRow {
+        position: relative;
+    }
+    .rating {
+        position: absolute;
+        right: 162px;
+    }
+    .DashboardFilterexperienceDropown {
+        padding-right: 184px;
+    }
+    .experienceH6 {
+        margin-top: 40px;
     }
     .filtersTitle p {
         margin-left: 6px;
@@ -207,9 +235,47 @@
     .margin768 {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+
+        justify-content: space-around;
         margin-top: 20px;
         margin-bottom: 40px;
+    }
+    .Dashboard2BookNowButton button {
+        margin-left: 5px;
+        padding: 0px 16px;
+        height: 37px;
+        font-size: 14px;
+    }
+    .Dashboard2FilterpartContainer {
+        margin: 20px 10px 20px 2px;
+    }
+    .ratingRow {
+        position: relative;
+    }
+    .rating {
+        position: absolute;
+        right: 500px;
+    }
+    .experienceH6 {
+        margin-top: 40px;
+    }
+    .resetData {
+        text-align: start;
+    }
+    .Dashboard2CardbodyPaddingFixfor768 {
+        padding: 10px 14px;
+    }
+    .Dashboard2Perhour {
+        font-size: 13px;
+    }
+    .dashboard2totalhourspan {
+        font-size: 10px;
+    }
+    .dashboard2totalhoursspent {
+        font-size: 13px;
+    }
+    .Dashboard2Rate {
+        font-size: 12px;
     }
     .Dashboard_navbar_custom_hover {
         margin: 0px 1px;
@@ -334,14 +400,36 @@
     .customCardTitle {
         margin-left: 5px;
     }
-    .rating_logo img {
-        margin-left: 0px;
+    .Dashboard2CardbodyPaddingFixfor768 {
+        padding: 10px 8px;
     }
-    .clock {
-        margin-left: 0px;
+    .dashboard2totalhourspan {
+        font-size: 12px;
     }
-    .rate {
-        margin-left: 0px;
+    .dashboard2totalhoursspent {
+        font-size: 13px;
+    }
+    .resetData {
+        text-align: start;
+    }
+    .ratingRow {
+        position: relative;
+    }
+    .rating {
+        position: absolute;
+        right: 507px;
+    }
+    .experienceH6 {
+        margin-top: 40px;
+    }
+    .Dashboard2BookNowButton button {
+        padding: 0px 17px;
+    }
+    .Dashboard2CardTItle {
+        font-size: 13px;
+    }
+    .Dashboard2FilterpartContainer {
+        margin-top: 20px;
     }
     .totalHoursSpan {
         font-size: 12px !important;
@@ -412,51 +500,183 @@
     .custom_dashboard_right_side_cards p {
         font-size: 16px;
     }
-    .rating_logo img {
-        margin-left: 0px;
+
+    .activeEmployeeCard {
+        padding: 10px 14px 10px 8px !important;
     }
-    .clock {
-        margin-left: 0px;
+    .pendingInvoicesClass {
+        padding: 10px 14px 10px 8px !important;
     }
-    .rate {
-        margin-left: 0px;
+    .active_and_pending_column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-    .bookNowButton {
-        padding: 10px 10px;
-    }
-    .customCardTitle {
-        font-size: 14px;
-        margin: 0px;
-    }
-    .bookNowButton {
-        width: 94%;
-    }
-    .custom_card_padding {
-        padding: 1rem 7px;
-    }
-    .dropdown-toggle {
-        padding-right: 10px;
-    }
+
     .minimumTotalHourInput {
         font-size: 12px;
     }
     .maximuTotalHourInput {
         font-size: 13px;
     }
+
+    .Dashboard2CardbodyPaddingFixfor768 {
+        padding: 10px 8px;
+    }
+    .dashboard2totalhourspan {
+        font-size: 12px;
+    }
+    .dashboard2totalhoursspent {
+        font-size: 13px;
+    }
+    .resetData {
+        text-align: end;
+    }
+    .ratingRow {
+        position: relative;
+    }
+    .rating {
+        position: absolute;
+        right: 748px;
+    }
+    .experienceH6 {
+        margin-top: 40px;
+    }
+    .Dashboard2BookNowButton button {
+        padding: 0px 48px;
+    }
+    .Dashboard2CardTItle {
+        font-size: 13px;
+    }
+    .Dashboard2FilterpartContainer {
+        margin-top: 20px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1339.98px) {
+    .activeEmployeeCard {
+        padding: 10px 14px 10px 8px !important;
+    }
+    .pendingInvoicesClass {
+        padding: 10px 14px 10px 8px !important;
+    }
+    .active_and_pending_column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .minimumTotalHourInput {
+        font-size: 12px;
+    }
+    .maximuTotalHourInput {
+        font-size: 13px;
+    }
+
+    .Dashboard2CardbodyPaddingFixfor768 {
+        padding: 10px 8px;
+    }
+    .dashboard2totalhourspan {
+        font-size: 12px;
+    }
+    .dashboard2totalhoursspent {
+        font-size: 13px;
+    }
+    .resetData {
+        text-align: end;
+    }
+    .ratingRow {
+        position: relative;
+    }
+    .rating {
+        position: absolute;
+        right: 748px;
+    }
+    .experienceH6 {
+        margin-top: 40px;
+    }
+    .Dashboard2BookNowButton button {
+        padding: 0px 34px;
+    }
+    .Dashboard2CardTItle {
+        font-size: 13px;
+    }
+    .Dashboard2FilterpartContainer {
+        /* margin-top: 2px; */
+    }
+    .dashboard2totalhourspan {
+        font-size: 12px;
+    }
+    .dashboard2totalhoursspent {
+        font-size: 13px;
+    }
 }
 @media (min-width: 1340px) and (max-width: 1399.98px) {
+    .activeEmployeeCard {
+        padding: 10px 14px 10px 8px !important;
+    }
+    .pendingInvoicesClass {
+        padding: 10px 14px 10px 8px !important;
+    }
+    .active_and_pending_column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .minimumTotalHourInput {
+        font-size: 12px;
+    }
+    .maximuTotalHourInput {
+        font-size: 13px;
+    }
+
+    .Dashboard2CardbodyPaddingFixfor768 {
+        padding: 10px 8px;
+    }
+    .dashboard2totalhourspan {
+        font-size: 12px;
+    }
+    .dashboard2totalhoursspent {
+        font-size: 13px;
+    }
+    .resetData {
+        text-align: end;
+    }
+    .ratingRow {
+        position: relative;
+    }
+    .rating {
+        position: absolute;
+        right: 748px;
+    }
+    .experienceH6 {
+        margin-top: 40px;
+    }
+    .Dashboard2BookNowButton button {
+        padding: 0px 34px;
+    }
+    .Dashboard2CardTItle {
+        font-size: 13px;
+    }
+    .Dashboard2FilterpartContainer {
+        /* margin-top: 20px; */
+    }
+    .dashboard2totalhourspan {
+        font-size: 12px;
+    }
+    .dashboard2totalhoursspent {
+        font-size: 13px;
+    }
 }
 
 @media (min-width: 1400px) and (max-width: 1535.98px) {
 }
 
 @media (min-width: 1536px) and (max-width: 1598.98px) {
-.dashboardMyemloyeeCardHeightFix {
-    padding: 29px 10px;
-}
+    .dashboardMyemloyeeCardHeightFix {
+        padding: 29px 10px;
+    }
 }
 
 @media (min-width: 1600px) and (max-width: 1798.98px) {
@@ -466,6 +686,13 @@
 }
 
 @media (min-width: 1800px) and (max-width: 2098.98px) {
+    .Dashboard1WelcomeCardFor1080p {
+        padding: 0px !important;
+    }
+    .welcome_card {
+        padding: 10px 10px 10px 16px;
+    }
+
     .dashboardMyemloyeeCardHeightFix {
         padding: 29px 10px;
     }
