@@ -670,11 +670,11 @@
         margin-top: 200px;
     }
     .downloadPerticle2 {
-        top: 293%;
+        top: 295%;
         width: 23%;
     }
     .downloadPerticle {
-        top: 380%;
+        top: 382%;
         width: 19%;
     }
     .perticle1 {
@@ -772,7 +772,7 @@
 }
 @media (min-width: 1536px) and (max-width: 1598.98px) {
     .downloadPerticle2 {
-        top: 252.5%;
+        top: 253.5%;
     }
     .perticle1 {
         top: 11.6%;
@@ -786,7 +786,7 @@
         bottom: -20%;
     }
     .downloadPerticle {
-        top: 322%;
+        top: 324%;
     }
 }
 @media (min-width: 1600px) and (max-width: 1798.98px) {
@@ -867,11 +867,11 @@
         position: absolute;
         left: 0px;
         z-index: -1;
-        top: 247%;
+        top: 248%;
         z-index: -1;
     }
     .downloadPerticle2 {
-        top: 204.7%;
+        top: 205.7%;
         z-index: -1;
     }
     .placeImgWrapper img {
