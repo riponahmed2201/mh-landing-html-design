@@ -378,19 +378,21 @@ body {
     border-radius: 14px;
     height: fit-content;
 }
-.btn-group img {
+.DashboardFilterCategoryDropdown  img {
     margin-right: 10px;
 }
 .dropdown-toggle {
     padding-right: 50px;
 }
-.dropdown-toggle .glyphicon {
+/* .dropdown-toggle .glyphicon {
     margin-left: 20px;
     margin-right: -40px;
-}
-.dropdown-menu > li > a:hover {
+} */
+/* .dropdown-menu > li > a:hover {
     background: #f1f9fd;
-} /* $search-blue */
+} */
+
+/* $search-blue */
 .dropdown-header {
     background: #ccc;
     font-size: 14px;
