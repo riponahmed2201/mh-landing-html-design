@@ -365,6 +365,9 @@ body {
 .Dashboard2CardssecondRow {
     margin-top: 20px;
 }
+.dashBoardCardsecondRow {
+    margin-top: 20px !important;
+}
 
 /* Dashboard 2 end */
 

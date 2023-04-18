@@ -75,10 +75,34 @@
     .bookNowCardMobileMarginBottom {
         margin-bottom: 10px;
     }
-    .firstFilterRow {
-    }
     .filtersTitle p {
         margin-left: 6px;
+    }
+    .Dashboard2BookNowButton button {
+        padding: 0px 73px;
+    }
+    .Dashboard2CardbottomMarginFixForSmallScreens {
+        margin-bottom: 10px;
+    }
+    .resetData {
+        text-align: start;
+    }
+    .Dashboard2FilterpartContainer {
+        margin: 10px 0px;
+    }
+    .ratingRow {
+        position: relative;
+    }
+    .rating {
+        position: absolute;
+        left: -106px;
+    }
+    .experienceH6 {
+        margin-top: 38px;
+    }
+    .DashboardfooterTextWrpper span {
+        padding-top: 4px;
+        font-size: 7px;
     }
 }
 
@@ -103,9 +127,7 @@
     }
     .DashboardfooterTextWrpper span {
         padding: 5px;
-        font-size: 14px;
-    }
-    .DashboardFooterleftPartLinks li a {
+        font-size: 12px;
     }
 
     .DashboardNavban {
@@ -216,6 +238,18 @@
     }
     .DashboardFootermiddlePart h5 {
         font-size: 14px;
+    }
+    .Dashboard2BookNowButton button {
+        padding: 0px 101px;
+    }
+    .Dashboard2CardbottomMarginFixForSmallScreens {
+        margin-bottom: 10px;
+    }
+    .resetData {
+        text-align: start;
+    }
+    .Dashboard2FilterpartContainer {
+        margin: 10px 0px;
     }
 }
 
@@ -362,6 +396,27 @@
     .footerTextWrpper span {
         font-size: 14px;
     }
+    .Dashboard2BookNowButton button {
+        padding: 0px 103px;
+    }
+    .Dashboard2CardbottomMarginFixForSmallScreens {
+        margin-bottom: 10px;
+    }
+    .resetData {
+        text-align: start;
+    }
+    .Dashboard2FilterpartContainer {
+        margin: 10px 0px;
+    }
+    .Dashboard2Card_count {
+        font-size: 11px;
+    }
+    .Dashboardcard2Years {
+        font-size: 12px;
+    }
+    .Dashboard2ExpSpan {
+        font-size: 10px;
+    }
 }
 
 @media (min-width: 820px) and (max-width: 1023.98px) {
@@ -488,6 +543,25 @@
     .DashboardfooterTextWrpper span {
         font-size: 14px;
     }
+    .Dashboard2Card_count {
+        font-size: 11px;
+    }
+    .Dashboard2BookNowButton button {
+        padding: 0px 103px;
+    }
+    .Dashboard2CardbottomMarginFixForSmallScreens {
+        margin-bottom: 10px;
+    }
+
+    .Dashboard2Card_count {
+        font-size: 11px;
+    }
+    .Dashboardcard2Years {
+        font-size: 12px;
+    }
+    .Dashboard2ExpSpan {
+        font-size: 10px;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1198.98px) {
@@ -590,7 +664,7 @@
     }
     .rating {
         position: absolute;
-        right: 748px;
+        right: 69px;
     }
     .experienceH6 {
         margin-top: 40px;
@@ -609,6 +683,15 @@
     }
     .dashboard2totalhoursspent {
         font-size: 13px;
+    }
+    .Dashboard2Card_count {
+        font-size: 9px;
+    }
+    .Dashboardcard2Years {
+        font-size: 12px;
+    }
+    .Dashboard2ExpSpan {
+        font-size: 9px;
     }
 }
 @media (min-width: 1340px) and (max-width: 1399.98px) {
@@ -648,8 +731,9 @@
     }
     .rating {
         position: absolute;
-        right: 748px;
+        right: 72px;
     }
+
     .experienceH6 {
         margin-top: 40px;
     }
@@ -667,6 +751,12 @@
     }
     .dashboard2totalhoursspent {
         font-size: 13px;
+    }
+    .Dashboard2Card_count {
+        font-size: 9px;
+    }
+    .Dashboard2ExpSpan {
+        font-size: 10px;
     }
 }
 
