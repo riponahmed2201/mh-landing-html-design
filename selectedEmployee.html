@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <!-- Google Fonts End-->
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <link href="css/dashboard.css" rel="stylesheet" />
+        <link href="css/dashboard_media.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/selectedEmployee.css" />
+        <link rel="stylesheet" href="css/selectedEmployeeMedia.css" />
+        <title>Selecte Employee</title>
+    </head>
+    <body>
+        <!-- Header Start -->
+        <section class="Dashboardheader sticky-top">
+            <div class="container header_container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar DashboardNavban navbar-expand-md navbar-light">
+                            <a class="navbar-brand" href="#"><img class="img-fluid Dashboard_nav_logo" src="images/Dashboardimages/logo.png" alt="" /></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="Dash_navb_custom collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="Dashboard_navbar_custom navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="Dashboard_navbar_custom_hover nav-link" aria-current="page" href="#">
+                                            <div class="navLinkImageTextWraper">
+                                                <img src="images/Dashboardimages/navbar/Rectangle 40265.png" alt="" />
+                                                <span class="DashboardBookmarkNavSpan">5</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="Dashboard_navbar_custom_hover nav-link" href="#">
+                                            <div class="navLinkImageTextWraper">
+                                                <img src="images/Dashboardimages/navbar/path113.png" alt="" />
+                                                <span class="DashboardNotificationNavSpan">3</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="Dashboard_navbar_custom_hover nav-link" href="#">
+                                            <img src="images/Dashboardimages/navbar/CONTACT.png" alt="" />
+                                        </a>
+                                    </li>
+
+                                    <!-- Language Dropdown -->
+                                    <div class="DashboardlanguageFlagWrapper d-flex justify-content-center align-items-center">
+                                        <img class="img-fluid" src="images/Dashboardimages/flag.png" alt="" />
+                                    </div>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle navDropDownPlaceholder" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Eng </a>
+
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><hr class="dropdown-divider" /></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- Language Dropdown -->
+                                    <!-- Dark Mode Toggle -->
+                                    <div class="DashboarddarkModeToggle">
+                                        <div class="DashBoardNavform-check form-switch">
+                                            <input class="form-check-input custom_formCheck_input" type="checkbox" id="dark-mode-toggle" />
+                                            <label class="form-check-label" for="dark-mode-toggle">
+                                                <img src="images/Dashboardimages/navbar/moon.png" alt="Light mode" class="toggle-img light-mode" />
+                                                <img src="images/Dashboardimages/navbar/sundark (1).png" alt="Dark mode" class="toggle-img dark-mode" />
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- Dark Mode Toggle -->
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Header End -->
+
+        <!-- Selected Employee Card Start -->
+        <section class="SelectedEmployee">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-5">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="selectedEmploImgBackBtn">
+                                    <a href=""><img src="images/selectedEmployee/backButton.png" class="img-fluid" alt="" /></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="selectedEmployeeBookmarkImg">
+                                    <a href=""> <img src="images/selectedEmployee/SelecEmployeeCardBookmaricon.png" class="img-fluid" alt="" /></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="selectedEmpProfilePic">
+                                <img src="images/selectedEmployee/slcEmpPro.png" class="img-fluid" alt="" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="profileMarker">
+                                <img src="images/selectedEmployee/profileMarkLogo.png" class="img-fluid" alt="" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="selectProfileRowForMargin" style="width: auto; border-radius: 14px">
+                                <div class="card selectEmpCardCard_body card-body">
+                                    <div class="sctEmplTitleBox">
+                                        <h5 class="card-title slctProfileNameTitle">Mr Alquraish Sharkar</h5>
+                                        <span class="sctProfileAge">Age: 45 years</span>
+                                        <span class="slctProfiletotalRating"><img src="images/selectedEmployee/Star 1.png " class="img-fluid scltEmpProfileRatingIcon" alt="" /> 4.5 (15)</span>
+                                        <div class="slctproLine">
+                                            <img src="images/selectedEmployee/Line 1.png" class="img-fluid" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="row slctEmpProfileRateRow">
+                                        <div class="col-xl-7 col-md-6">
+                                            <span class="slctProfileRateName"><img class="img-fluid SlctProrateIcon" src="images/selectedEmployee/rate.png" alt="" /> Rate: </span>
+                                            <span class="slctprofilePerHourPrice">500$/Hour</span>
+                                        </div>
+                                        <div class="col-xl-5 col-md-6">
+                                            <span class="slctProfileExpName"><img src="images/selectedEmployee/experience.png" alt="" /> Exp:</span>
+                                            <span class="slctProfileExpValue">5 years</span>
+                                        </div>
+                                    </div>
+                                    <div class="row slctEmpProfileRateRow">
+                                        <div class="col-xl-7 col-md-6">
+                                            <span class="selectEmployeeTotalHours"><img src="images/selectedEmployee/clock.png" alt="" /> Total Hours:</span>
+                                            <span class="selectEmployeeTotalHoursValue">2456 H</span>
+                                        </div>
+                                        <div class="col-xl-5 col-md-6 selectEmpReviewCol">
+                                            <span class="selectEmpReviewspan"><img src="images/selectedEmployee/Review.png" alt="" /> Review:</span>
+                                            <span class="selectEmpReviewspanValue">1 time</span>
+                                        </div>
+                                    </div>
+                                    <div class="row slcEmpProfilLicenseRow">
+                                        <div class="col-xl-12">
+                                            <span class="selectEmpLicense"><img src="images/selectedEmployee//licenceLogo.png" class="img-fluid selectEmpLicenseLogo" alt="" /> License No: </span>
+                                            <span class="selectEmpLicenseValue">MN123456-12345</span>
+                                        </div>
+                                    </div>
+                                    <div class="selectEmployeeCardBookNowButton">
+                                        <button>Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-md-7">
+                        <div class="selectEmpLocationBar">
+                            <p>Location</p>
+                            <img src="images/selectedEmployee/Line 2.png" class="img-fluid" alt="" />
+                            <span><img src="images/selectedEmployee/location.png" alt="" />&nbsp;20 Ranipukur Lane, Ciatle, #PO 42345, Camodia</span>
+                        </div>
+                        <div class="selectEmpLocationBar">
+                            <p>Education</p>
+                            <img src="images/selectedEmployee/Line 2.png" class="img-fluid" alt="" />
+                            <span><img src="images/selectedEmployee/education (2).png" alt="" />&nbsp;2015-17: Oxford High School, Camodia</span>
+                            <div class="row">
+                                <span><img src="images/selectedEmployee/education (2).png" alt="" />&nbsp;2018-20: (B.Sc.)Cambridge University, Camodia</span>
+                            </div>
+                        </div>
+                        <div class="selectEmpLocationBar">
+                            <p>Certificate</p>
+                            <img src="images/selectedEmployee/Line 2.png" class="img-fluid" alt="" />
+                            <span><img src="images/selectedEmployee/certificateICon.png" alt="" />&nbsp;College Certificate in Culinary Skills</span>
+                            <div class="row">
+                                <span><img src="images/selectedEmployee/certificateICon.png" alt="" />&nbsp;College Certificate in Culinary Skills & Cookery</span>
+                            </div>
+                            <span><img src="images/selectedEmployee/certificateICon.png" alt="" />&nbsp;Advanced Certificate in Culinary Arts</span>
+                            <div class="row">
+                                <span><img src="images/selectedEmployee/certificateICon.png" alt="" />&nbsp;Certificate IV Program</span>
+                            </div>
+                        </div>
+                        <div class="selectEmpLocationBar">
+                            <p>Language</p>
+                            <img src="images/selectedEmployee/Line 2.png" class="img-fluid" alt="" />
+                            <span><img src="images/selectedEmployee/googleTranslate.png" alt="" />&nbsp;English (Native)</span>
+                            <div class="row">
+                                <span><img src="images/selectedEmployee/googleTranslate.png" alt="" />&nbsp;Spanish, Hindi (Conversational)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Selected Employee Card End -->
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <script src="js/dark-mode-switch.min.js"></script>
+
+        <script src="https://kit.fontawesome.com/2ded5841b7.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="js/Dashboardscript.js"></script>
+    </body>
+</html>
