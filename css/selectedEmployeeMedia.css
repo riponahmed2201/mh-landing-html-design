@@ -202,6 +202,8 @@
     }
     .selectEmployeeCardBookNowButton button {
         margin-top: 12px;
+        margin-bottom: 3px;
+
         height: 50px;
     }
     .selectEmpLocationBar p {
