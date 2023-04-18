@@ -699,17 +699,26 @@
     }
 }
 @media (min-width: 1340px) and (max-width: 1399.98px) {
+    .perticle2 {
+        top: 57%;
+    }
     .contactUsFormContainer {
         bottom: -75px;
     }
-    .placeImgWrapper img {
-        position: absolute;
+    /* .placeImgWrapper img {
         bottom: -470%;
 
         right: 61.5%;
         bottom: -408.4%;
+    } */
+    .downloadPerticle2 {
+        top: 265%;
+    }
+    .downloadPerticle {
+        top: 337%;
     }
 }
+
 @media (min-width: 1400px) and (max-width: 1535.98px) {
     .left_part {
         margin-top: 104px;
