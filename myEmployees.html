@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <!-- Google Fonts End-->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <link href="css/IndexStyle.css" rel="stylesheet" />
+    <link href="css/indexMedia.css" rel="stylesheet" />
+    <link href="css/login_style.css" rel="stylesheet" type="text/css" />
+    <link href="css/login_media.css" rel="stylesheet" />
+    <link href="css/registrationForm.css" rel="stylesheet" type="text/css" />
+    <link href="css/registrationFormMedia.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/dashboard_media.css">
+    <link rel="stylesheet" href="css/selectedEmployee.css">
+    <link rel="stylesheet" href="css/selectedEmployeeMedia.css">
+    <link rel="stylesheet" href="css/innerDashboard.css">
+    <link rel="stylesheet" href="css/innerDashboardMedia.css">
+    <link rel="stylesheet" href="css/myEmployees.css">
+    <link rel="stylesheet" href="css/myEmployeesMedia.css">
+    <title>My Employees</title>
+
+
+
+    <!-- Header Start -->
+    <section class="Dashboardheader sticky-top">
+        <div class="container header_container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar DashboardNavban navbar-expand-md navbar-light">
+                        <a class="navbar-brand " href="#"><img class="img-fluid Dashboard_nav_logo"
+                                src="images/Dashboardimages/logo.png" alt="" /></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="Dash_navb_custom collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="Dashboard_navbar_custom navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="Dashboard_navbar_custom_hover nav-link" aria-current="page" href="#">
+                                        <div class="navLinkImageTextWraper">
+                                            <img src="images/Dashboardimages/navbar/Rectangle 40265.png" alt="" />
+                                            <span class="DashboardBookmarkNavSpan">5</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="Dashboard_navbar_custom_hover nav-link" href="#">
+                                        <div class="navLinkImageTextWraper">
+                                            <img src="images/Dashboardimages/navbar/path113.png" alt="" />
+                                            <span class="DashboardNotificationNavSpan">3</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="Dashboard_navbar_custom_hover nav-link" href="#">
+                                        <img src="images/Dashboardimages/navbar/CONTACT.png" alt="" />
+                                    </a>
+                                </li>
+
+                                <!-- Language Dropdown -->
+                                <div
+                                    class="DashboardlanguageFlagWrapper d-flex justify-content-center align-items-center">
+                                    <img class="img-fluid" src="images/Dashboardimages/flag.png" alt="" />
+                                </div>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle navDropDownPlaceholder" href="#"
+                                        id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"> Eng </a>
+
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider" />
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <!-- Language Dropdown -->
+                                <!-- Dark Mode Toggle -->
+                                <div class="DashboarddarkModeToggle">
+
+                                    <div class="DashBoardNavform-check form-switch">
+                                        <input class="form-check-input custom_formCheck_input" type="checkbox"
+                                            id="dark-mode-toggle" />
+                                        <label class="form-check-label" for="dark-mode-toggle">
+                                            <img src="images/Dashboardimages/navbar/moon.png" alt="Light mode"
+                                                class="toggle-img light-mode" />
+                                            <img src="images/Dashboardimages/navbar/sundark (1).png" alt="Dark mode"
+                                                class="toggle-img dark-mode" />
+                                        </label>
+                                    </div>
+                                </div>
+                                <!-- Dark Mode Toggle -->
+                            </ul>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HEader End -->
+
+    <!-- Inner Dashboard Search Part Start -->
+    <section class="InnnerDashboardSearch">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="innerDashSearchItems d-flex align-items-center">
+                        <button class="innerdashboardBackButton"><img src="images/InnerDashboard/arrow.png"
+                                class="img-fluid" alt=""></button>
+                        <img src="images/myEmployees/employeeIcon.png" class="img-fluid" alt="">
+                        <span class="innerDashSearchItemsSpan">My employees</span>
+                        <span class="myEmployeePageEmployeeCount">(34)</span>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="innerDashboardRightSideFormWrapper d-flex align-items-center">
+                        <div class="InnerDashSearchCion">
+                            <img src="images/InnerDashboard/SearchIcon.png" alt="">
+                        </div>
+                        <input type="text" class="form-control innerDashRightSideSearchBar" placeholder="search here"
+                            aria-label="First name">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Inner Dashboard Search Part End -->
+
+    
+    <!-- Card Section Star -->
+    <section class="MyemployeesPageCards">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 myEmployeesPageCardColumn">
+                    <div class="card-group">
+
+                        <div class="col-lg-3 col-md-6 Dashboard2CardbottomMarginFixForSmallScreens">
+                            <div class="card DashboardEmployeeCard">
+                                <img src="images/Dashboardimages/dashboard2/card profiles/Rectangle 40236.png"
+                                    class="Dashboard2-card-img-top" alt="...">
+                                <div class="card-body Dashboard2CardbodyPaddingFixfor768">
+                                    <h5 class="card-title Dashboard2CardTItle">Mr Alquraish Sharkar</h5>
+
+
+
+                                    <div class="row">
+                                        <div class="col-xl-5 col-lg-5 col-md-4 col-sm-6">
+                                            <div class="DashboardratingimgWraper">
+                                                <img src="images/Dashboardimages/dashboard2/Star 1.png"
+                                                    class="img-fluid" alt="">
+                                                <span class="Dashboard2Card_rating">
+                                                    4.5
+                                                </span>
+                                                <span class="Dashboard2Card_count">
+                                                    (123)
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-xl-7 col-lg-7 col-md-8 col-sm-6">
+                                           
+                                            <div class="myEmployeesActiveInactiveButton">
+                                                <img src="images/myEmployees/activeIcongreen.png" alt="">
+                                                <span>Active</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="dashboard2chefwrapper">
+                                            <img src="images/Dashboardimages/dashboard2/chef.png"
+                                                class="img-fluid" alt="">
+                                            <span>Chef</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="dashboard2TotalHourwrapper">
+                                            <img src="images/Dashboardimages/dashboard2/clock.png"
+                                                class="img-fluid" alt="">
+                                            <span class="dashboard2totalhourspan">Total Hours :</span>
+                                            <span class="dashboard2totalhoursspent">2456 H</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="dashboard2Rate">
+                                            <img src="images/Dashboardimages/dashboard2/rate.png"
+                                                class="img-fluid" alt="">
+                                            <span class="Dashboard2Rate">Rate</span>
+                                            <span class="Dashboard2Perhour">500$/hour</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="Dashboard2BookNowButton">
+                                            <img src="images/Dashboardimages/dashboard2/bookmark.png" alt="">
+                                            <button class="myEmployeePageBbooknowButtonOverrite">$20/ hour</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 Dashboard2CardbottomMarginFixForSmallScreens">
+                            <div class="card DashboardEmployeeCard">
+                                <img src="images/myEmployees/Rectangle 40236.png"
+                                    class="Dashboard2-card-img-top" alt="...">
+                                <div class="card-body Dashboard2CardbodyPaddingFixfor768">
+                                    <h5 class="card-title Dashboard2CardTItle">Mr Aki Yamnamoto</h5>
+
+
+
+                                    <div class="row">
+                                        <div class="col-lg-5 col-md-6 col-sm-6">
+                                            <div class="DashboardratingimgWraper">
+                                                <img src="images/Dashboardimages/dashboard2/Star 1.png"
+                                                    class="img-fluid" alt="">
+                                                <span class="Dashboard2Card_rating">
+                                                    4.5
+                                                </span>
+                                                <span class="Dashboard2Card_count">
+                                                    (123)
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-7 col-md-6 col-sm-6">
+                                           
+                                            <div class="myEmployeesInactiveButton">
+                                                <img src="images/myEmployees/inactiveIconred.png" alt="">
+                                                <span>Inactive</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="dashboard2chefwrapper">
+                                            <img src="images/Dashboardimages/dashboard2/chef.png"
+                                                class="img-fluid" alt="">
+                                            <span>Chef</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="dashboard2TotalHourwrapper">
+                                            <img src="images/Dashboardimages/dashboard2/clock.png"
+                                                class="img-fluid" alt="">
+                                            <span class="dashboard2totalhourspan">Total Hours :</span>
+                                            <span class="dashboard2totalhoursspent">2456 H</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="dashboard2Rate">
+                                            <img src="images/Dashboardimages/dashboard2/rate.png"
+                                                class="img-fluid" alt="">
+                                            <span class="Dashboard2Rate">Rate</span>
+                                            <span class="Dashboard2Perhour">500$/hour</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="Dashboard2BookNowButton">
+                                            <img src="images/Dashboardimages/dashboard2/bookmark.png" alt="">
+                                            <button class="myEmployeePageBbooknowButtonOverrite">$20/ hour</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 Dashboard2CardbottomMarginFixForSmallScreens">
+                            <div class="card DashboardEmployeeCard">
+                                <img src="images/Dashboardimages/dashboard2/card profiles/Rectangle 40236.png"
+                                    class="Dashboard2-card-img-top" alt="...">
+                                <div class="card-body Dashboard2CardbodyPaddingFixfor768">
+                                    <h5 class="card-title Dashboard2CardTItle">Mr Alquraish Sharkar</h5>
+
+
+
+                                    <div class="row">
+                                        <div class="col-xl-5 col-lg-5 col-md-4 col-sm-6">
+                                            <div class="DashboardratingimgWraper">
+                                                <img src="images/Dashboardimages/dashboard2/Star 1.png"
+                                                    class="img-fluid" alt="">
+                                                <span class="Dashboard2Card_rating">
+                                                    4.5
+                                                </span>
+                                                <span class="Dashboard2Card_count">
+                                                    (123)
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-xl-7 col-lg-7 col-md-8 col-sm-6">
+                                           
+                                            <div class="myEmployeesActiveInactiveButton">
+                                                <img src="images/myEmployees/activeIcongreen.png" alt="">
+                                                <span>Active</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="dashboard2chefwrapper">
+                                            <img src="images/Dashboardimages/dashboard2/chef.png"
+                                                class="img-fluid" alt="">
+                                            <span>Chef</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="dashboard2TotalHourwrapper">
+                                            <img src="images/Dashboardimages/dashboard2/clock.png"
+                                                class="img-fluid" alt="">
+                                            <span class="dashboard2totalhourspan">Total Hours :</span>
+                                            <span class="dashboard2totalhoursspent">2456 H</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="dashboard2Rate">
+                                            <img src="images/Dashboardimages/dashboard2/rate.png"
+                                                class="img-fluid" alt="">
+                                            <span class="Dashboard2Rate">Rate</span>
+                                            <span class="Dashboard2Perhour">500$/hour</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="Dashboard2BookNowButton">
+                                            <img src="images/Dashboardimages/dashboard2/bookmark.png" alt="">
+                                            <button class="myEmployeePageBbooknowButtonOverrite">$20/ hour</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 Dashboard2CardbottomMarginFixForSmallScreens">
+                            <div class="card DashboardEmployeeCard">
+                                <img src="images/myEmployees/Rectangle 40236.png"
+                                    class="Dashboard2-card-img-top" alt="...">
+                                <div class="card-body Dashboard2CardbodyPaddingFixfor768">
+                                    <h5 class="card-title Dashboard2CardTItle">Mr Aki Yamnamoto</h5>
+
+
+
+                                    <div class="row">
+                                        <div class="col-lg-5 col-md-6 col-sm-6">
+                                            <div class="DashboardratingimgWraper">
+                                                <img src="images/Dashboardimages/dashboard2/Star 1.png"
+                                                    class="img-fluid" alt="">
+                                                <span class="Dashboard2Card_rating">
+                                                    4.5
+                                                </span>
+                                                <span class="Dashboard2Card_count">
+                                                    (123)
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-7 col-md-6 col-sm-6">
+                                           
+                                            <div class="myEmployeesInactiveButton">
+                                                <img src="images/myEmployees/inactiveIconred.png" alt="">
+                                                <span>Inactive</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="dashboard2chefwrapper">
+                                            <img src="images/Dashboardimages/dashboard2/chef.png"
+                                                class="img-fluid" alt="">
+                                            <span>Chef</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="dashboard2TotalHourwrapper">
+                                            <img src="images/Dashboardimages/dashboard2/clock.png"
+                                                class="img-fluid" alt="">
+                                            <span class="dashboard2totalhourspan">Total Hours :</span>
+                                            <span class="dashboard2totalhoursspent">2456 H</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="dashboard2Rate">
+                                            <img src="images/Dashboardimages/dashboard2/rate.png"
+                                                class="img-fluid" alt="">
+                                            <span class="Dashboard2Rate">Rate</span>
+                                            <span class="Dashboard2Perhour">500$/hour</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="Dashboard2BookNowButton">
+                                            <img src="images/Dashboardimages/dashboard2/bookmark.png" alt="">
+                                            <button class="myEmployeePageBbooknowButtonOverrite">$20/ hour</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                        
+
+
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Card Section End -->
+
+
+
+    <!-- Footer Start -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-2">
+                    <div class="leftPartLinks">
+                        <ul>
+                            <li>
+                                <a href="">Home</a>
+                                <a href="">Customers</a>
+                                <a href="">Career</a>
+                                <a href="">About Us</a>
+                                <a href="">Services</a>
+                                <a href="">Meet The Team</a>
+                                <a href="">Faq</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-8">
+                    <div class="middlePart">
+                        <h3>Need Help? Contact Us</h3>
+                        <h4>+44 20 3980 9360</h4>
+                        <h5>info@mhpremierstaffingsolutions.com</h5>
+                        <div class="placeImg">
+                            <h6><img src="images/indexImages/place.png" alt="" /> 48 Warwick St Regent Street W1B 5AW
+                                London</h6>
+                        </div>
+                        <span>Follow us on</span>
+                        <div class="socialMediaIcons">
+                            <a href=""> <img class="img-fluid" src="images/indexImages/socialMedia/Group 116168.png"
+                                    alt="" /></a>
+                            <a href="">
+                                <img class="img-fluid" src="images/indexImages/socialMedia/Group 116169.png" alt="" />
+                            </a>
+                            <a href="">
+                                <img class="img-fluid" src="images/indexImages/socialMedia/Group 116170.png" alt="" />
+                            </a>
+                            <a href="">
+                                <img class="img-fluid" src="images/indexImages/socialMedia/Group 116171.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2">
+                    <div class="rightPartLinks">
+                        <ul>
+                            <li>
+                                <a href="">CORPORATE INFORMATION</a>
+                                <a href="">WEBSITE TERM OF USE</a>
+                                <a href="">PRIVACY NOTICE</a>
+                                <a href="">COOKIES</a>
+                                <a href="">DOWNLOAD THE APP</a>
+                            </li>
+                        </ul>
+                        <div class="rightPartLogoWrapper text-end">
+                            <a href="">
+                                <img class="img-fluid" src="images/indexImages/socialMedia/Group 117303.png" alt="" />
+                            </a>
+                            <a href="">
+                                <img class="img-fluid" src="images/indexImages/socialMedia/Group 117304.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 footerFinal">
+                    <div class="footerTextWrpper d-flex justify-content-between">
+                        <span>© 2023 MH Premier Staffing Solutions. All rights reserved.</span>
+                        <img class="img-fluid footerFinalLogo" src="images/indexImages/footerLogo.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer End -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <script src="js/dark-mode-switch.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/2ded5841b7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/Dashboardscript.js"></script>
+    </body>
+
+</html>
+</head>
